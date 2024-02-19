@@ -185,9 +185,7 @@ continueButton.addEventListener('click', function(){
         seatNumber.removeAttribute('disabled');
     }
 })
-// After Continue Button Clicking Functionality Ends Here
 
-// After Apply Button Clicking Functionality Starts Here
 applyButton.addEventListener('click', function(){
     if(couponInputElement.value === newCouponCode){
         const discountPrice = (totalPrice * 0.15);
